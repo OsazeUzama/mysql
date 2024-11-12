@@ -1,5 +1,4 @@
 const Sequelize = require('sequelize');
-const { logger } = require('sequelize/lib/utils/logger');
 
 const sequelize = new Sequelize('node-complete', 'root', 'Management', {
   dialect: 'mysql',
